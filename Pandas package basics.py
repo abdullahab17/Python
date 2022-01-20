@@ -6,3 +6,8 @@ cpc =[809,731,588,18,200,70,45]
 my_dict = {'country': name,'Driving rights': dr,'Cars per Capita':cpc}
 cars=pd.DataFrame(my_dict)
 print(cars)
+print('\n')
+
+row_labels = ['US','AUS','JPN','IND','RUS','MOR','EG']
+cars.index=row_labels
+print(cars)
